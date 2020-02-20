@@ -1,10 +1,9 @@
 # Automatic-gain-optimization-for-readsb
-Automatic gain optimization for readsb
 
 Note : this script is a simple modification of the wiedehopf Automatic-gain-optimization-for-dump1090-fa
 
 *     only for rtl-sdr/DVB-T USB receiver, not Airspy or Beast receivers
-*     at 2:45 in the morning, the gain is changed and dump1090-fa restarted
+*     at 2:45 in the morning, the gain is changed and readsb restarted
 *     changes gain by one step every night, only if required
 *     uses strong signals (messages >-3dB) to determine if gain should be changed
 *     if the percentage of strong signals is greater than 9 percent -> gain is reduced
